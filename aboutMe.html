@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS Mastered: About Me</title>
+        <link rel="stylesheet" href="csMastered.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class = "nonActive"><a href="index.html">Home</a></li>
+                    <li class = "activeLink"><a>About Me</a></li>
+                    <li class = "nonActive"><a href="signUp.html">Sign Up</a></li>
+                    <li class = "nonActive"><a href="whyMe.html">Why chose me</a></li>
+                    <li class="nonActive"><a href="whatULearn.html">What You Learn</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img src="code.jpg" alt="Image of code" height="50" width="102%" id = "code"/>
+            <section id = "titleBlock">
+                <hgroup>
+                    <h1 id = "title">CS Mastered</h1>   
+                    <h2 id = "slogan">Not just learned but Mastered</h2>
+                </hgroup>
+            </section>
+            <section class="bodyText">
+               <h1>About Me</h1>
+               <p>I am a passionate coder who enjoys coding. I have been teaching myself coding since
+                fourth grade. I enjoy coding many different kinds of games. Some things I have coded are snake, 
+                tower defense, flappy bird, and pong. I have also coded a cool Chat GPT chatbot. I have also coded this website from scratch.
+               </p> <br> <br>
+               <p>This website is responisve! Look at it from a computer, ipad, and iphone to see the diferences.</p>
+            </section>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="chatGPT.jpeg" style="width:100%">
+                  <div class="text">Chat Bot</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="pong.jpg" style="width:100%">
+                  <div class="text">Pong</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="snake.png" style="width:100%">
+                  <div class="text">Snake</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="flappyBird.jpg" style="width:100%">
+                    <div class="text">Flappy Bird</div>
+                  </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              </div>
+        </main>
+        <script src="csMastered.js"></script>
+    </body>
+</html>
